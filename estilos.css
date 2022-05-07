@@ -234,49 +234,28 @@ body .nav {
     grid-area: img5;
 }
 
-.proyectos_hover {
-    position: absolute;
-    background-color: rgb(196, 160, 160);
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: pointer;
-
-}
-
-.proyectos_item:hover .proyectos_hover {
-    transform: translate(0%);
-
-
-}
 
 .proyectos_icon {
     margin-top: 10px;
     font-size: 30px;
 }
 
-/* unvisited link */
+/* Enlace no visitado */
 footer a:link {
     color: #fff;
 }
 
-/* visited link */
+/* Enlace visitado*/
 footer a:visited {
-    color: rgb(220, 233, 195);
+    color: rgb(239, 230, 227);
 }
 
-/* mouse over link */
+/* Pasar raton sobre el enlace */
 footer a:hover {
-    color: rgb(213, 223, 199);
+    color: rgb(207, 132, 26);
 }
 
-/* selected link */
+/* Enlace activado */
 footer a:active {
     color: rgb(251, 251, 251);
 }
@@ -313,7 +292,7 @@ footer a:active {
     justify-content: space-evenly;
     /*hace q se distribuya equitativamente*/
 }
-
+/*Contenedor de iconos*/
 .footer_container-icons {
     display: inline-block;
     width: 60px;
@@ -343,17 +322,10 @@ footer a:active {
 
 }
 
-
+/*Estilo para el movil*/
 @media only screen and (max-width: 600px) {
 
-    .copyrigth {
-        color: #fff;
-        margin-left: 10px;
-        padding: 10px;
-        display: block;
-
-    }
-
+  
     .footer {
         margin-top: 1px;
     }
@@ -407,7 +379,7 @@ footer a:active {
     float: right;
 }
 
-#contenedor-lef {
+#contenedor-left {
     width: 40%;
     float: left;
 }
